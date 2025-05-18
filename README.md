@@ -1,32 +1,48 @@
-# Transformador de Estilos de Texto com Google Gemini
+# ✨ Transformador de Estilo com Gemini
 
-## 🏆 Critérios de Avaliação:
+Este projeto utiliza a API do Google Gemini para transformar qualquer texto em diferentes estilos de escrita, mostrando a versatilidade da IA generativa na comunicação humana.
 
-* **Utilidade:** Permite transformar um texto em diferentes estilos (formal, informal, poético, humorístico), o que pode ser útil para diversas aplicações, como adaptação de linguagem para diferentes públicos ou para fins criativos.
-* **Criatividade:** Implementa a transformação de texto utilizando a inteligência artificial do Google Gemini, explorando diferentes nuances da linguagem para gerar resultados originais.
-* **Eficácia:** O projeto funciona corretamente, transformando o texto de entrada para o estilo escolhido pelo usuário, com resultados coerentes e funcionais.
-* **Apresentação:** Este README explica o projeto e seu funcionamento. A interação via linha de comando é clara e oferece opções para transformar o mesmo texto em diferentes estilos ou sair do programa.
+## 💡 O que o projeto faz
 
-## 🚀 Como Usar:
+Você digita um texto livre e escolhe um entre quatro estilos:
 
-1.  Execute o código Python no Google Colab.
-2.  O programa solicitará que você digite o texto que deseja transformar. Você também pode digitar 'sair' para encerrar o programa.
-3.  Em seguida, será apresentado um menu com 5 opções de estilo:
-    * 1. Formal
-    * 2. Informal
-    * 3. Poético
-    * 4. Humorístico
-    * 5. Sair
-4.  Digite o número correspondente ao estilo desejado.
-5.  O texto original e o texto transformado serão exibidos.
-6.  Após a transformação, o programa perguntará se você deseja transformar o mesmo texto em outro estilo (1 para Sim, 2 para Não).
+- 📚 **Formal** – linguagem culta e estruturada.
+- 💬 **Informal** – tom leve, descontraído e próximo.
+- 🎭 **Poético** – metáforas, emoções e ritmo.
+- 😂 **Humorístico** – respostas leves com ironia ou trocadilhos.
 
-## 💡 Ideia e Funcionamento:
+A IA reescreve o texto no estilo escolhido, e você pode repetir o processo com o mesmo texto quantas vezes quiser.
 
-Este projeto utiliza a API do Google Gemini para analisar o texto fornecido pelo usuário e reescrevê-lo no estilo selecionado. Através de prompts específicos para cada estilo, a IA é instruída a adaptar a linguagem, o tom e a estrutura do texto, buscando gerar resultados que capturem as características essenciais de cada estilo.
+## 🚀 Tecnologias utilizadas
+
+- Python 3
+- Google Colab
+- Google Gemini API (`google-genai`)
+- System Instructions via prompt dinâmico
+
+## 🧠 Conceito
+
+Criado durante a Imersão de IA da Alura em parceria com o Google, este projeto demonstra como modelos de linguagem podem adaptar o mesmo conteúdo para múltiplos contextos.  
+O objetivo é mostrar, de forma acessível, o poder da IA para expressar a mesma mensagem com diferentes vozes.
 
 ## 🔗 Link do Projeto (Arquivo Colab):
 
 [link](projetoIA.ipynb)
+
+## 🎯 Como usar
+
+1. Execute o notebook no [Google Colab](https://colab.research.google.com).
+2. Insira sua chave da API do Gemini no Colab Secrets.
+3. Digite um texto qualquer.
+4. Escolha o estilo desejado.
+5. Veja a mágica acontecer ✨
+
+## 🌱 Sobre a autora
+
+Este projeto foi desenvolvido por **Eduarda Reis**, estudante, desenvolvedora e curiosa por natureza.  
+Aqui, a tecnologia encontra a linguagem — e palavras ganham novas formas de florescer.
+
 ---
-Este projeto de **Transformador de Estilos de Texto** demonstra uma aplicação prática e criativa da poderosa **API do Google Gemini**. Ele oferece uma ferramenta versátil para adaptar a linguagem a diferentes contextos, explorando a riqueza da comunicação humana através de **quatro estilos distintos**. A interatividade do programa, permitindo transformar o mesmo texto em múltiplas formas e a opção de sair, proporciona uma experiência de usuário fluida e eficiente. Acredito que a combinação de **utilidade**, **criatividade** na aplicação da IA e a **eficácia** da transformação tornam este projeto um destaque.
+
+> “Escrever é moldar o silêncio. Com IA, descobrimos novas vozes para esse molde.”  
+> — _Eduarda, via Gemini_
