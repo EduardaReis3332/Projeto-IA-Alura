@@ -27,6 +27,6 @@ Este projeto utiliza a API do Google Gemini para analisar o texto fornecido pelo
 
 ## 🔗 Link do Projeto (Arquivo Colab):
 
-(projetoIA.ipynb)[projetoIA.ipynb]
-
+[link](projetoIA.ipynb)
 ---
+Este projeto de **Transformador de Estilos de Texto** demonstra uma aplicação prática e criativa da poderosa **API do Google Gemini**. Ele oferece uma ferramenta versátil para adaptar a linguagem a diferentes contextos, explorando a riqueza da comunicação humana através de **quatro estilos distintos**. A interatividade do programa, permitindo transformar o mesmo texto em múltiplas formas e a opção de sair, proporciona uma experiência de usuário fluida e eficiente. Acredito que a combinação de **utilidade**, **criatividade** na aplicação da IA e a **eficácia** da transformação tornam este projeto um destaque.
